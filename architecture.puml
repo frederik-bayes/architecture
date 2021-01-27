@@ -1,0 +1,33 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_TOP_DOWN()
+
+Person(operator, "Operator")
+Container(ldo_ui, "live-data-operation-ui", "React SPA")
+Container(ldo_api, "live-data-operation-api", "Spring Boot WebMVC", "a.k.a live-data-management-service")
+Container(mds, "bayes-fixtures-backend", "Django", "a.k.a esportsdirectory")
+Container(fd, "fixtures-directory-service", "Spring Boot WebMVC")
+ContainerDb(ldo_db, "management", "Postgresql")
+ContainerQueue(ld_clients_exchange, "live-data.clients", "RabbitMQ Exchange", "TeamNameChangedEvent, TickedEvent")
+ContainerQueue(ld_management_exchange, "live-data.management", "RabbitMQ Exchange", "StartParseMessage")
+Container(ld_ingestion_replay_parser_csgo, "live-data-ingestion-csgo-transfer-agent-bayes", "Spring Boot", "Configured instance of live-data-ingestion-replay-parser")
+Container(ld_ingestion_replay_parser_dota, "live-data-ingestion-dota-bayes", "Spring Boot", "Configured instance of live-data-ingestion-replay-parser")
+ContainerQueue(ld_clarity_ingestion_exchange, "live-data.clarity.ingestion", "RabbitMQ Exchange", "IngestionMessage")
+
+Rel(operator, ldo_ui, "uses", "HTTP")
+Rel(ldo_ui, ldo_api, "displays/creates data", "HTTP")
+Rel_U(ldo_api, ldo_ui, "Sends events to", "STOMP WebSocket")
+Rel(ldo_api, mds, "fetches data", "HTTP")
+Rel(ldo_api, ldo_db, "Reads/Writes", "JDBC Driver")
+Rel(ldo_api, ld_management_exchange, "publishes", "AMQP Json")
+Rel(ldo_api, ld_clients_exchange, "consumes queue live-data.clients.in", "AMQP Json")
+Rel(ldo_api, fd, "fetches data", "HTTP")
+Rel_U(ld_ingestion_replay_parser_dota, ld_management_exchange, "consumes", "AMQP Json")
+Rel(ld_ingestion_replay_parser_dota, ld_clarity_ingestion_exchange, "publishes with rkey dota2:bayes-clarity", "AMQP Json")
+Rel(ld_ingestion_replay_parser_dota, ld_clients_exchange, "publishes", "AMQP Json")
+Rel_U(ld_ingestion_replay_parser_csgo, ld_management_exchange, "consumes", "AMQP Json")
+Rel(ld_ingestion_replay_parser_csgo, ld_clarity_ingestion_exchange, "publishes with rkey csgo:bayes-clarity", "AMQP Json")
+Rel(ld_ingestion_replay_parser_csgo, ld_clients_exchange, "publishes", "AMQP Json")
+
+@enduml
