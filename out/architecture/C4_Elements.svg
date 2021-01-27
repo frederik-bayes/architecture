@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1103px" preserveAspectRatio="none" style="width:1094px;height:1103px;" version="1.1" viewBox="0 0 1094 1103" width="1094px" zoomAndPan="magnify"><defs/><g><!--MD5=[0050c6625e3b42e2857ba4d8ed699679]
+entity operator--><rect fill="#08427B" height="100.5938" style="stroke:#073B6F;stroke-width:1.5;" width="101" x="468.5492" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="57" x="490.5492" y="28.1387">«person»</text><image height="48" width="48" x="495.0492" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="30.9688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="478.5492" y="93.8203">Operator</text><!--MD5=[2d511429c5a6b4117710edfedb36d875]
+entity ldo_ui--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="209" x="414.5492" y="197"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="482.0492" y="218.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="189" x="424.5492" y="235.8203">live-data-operation-ui</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="482.5492" y="250.7324">[React SPA]</text><!--MD5=[991b385b0a550d6a0a674d6404a4764a]
+entity ldo_api--><rect fill="#438DD5" height="115.4531" style="stroke:#3C7FC0;stroke-width:1.5;" width="228" x="405.0492" y="367"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="482.0492" y="388.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="199" x="419.5492" y="405.8203">live-data-operation-api</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="141" x="448.5492" y="420.7324">[Spring Boot WebMVC]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="521.0492" y="436.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="503.0492" y="452.8545">a.k.a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="208" x="415.0492" y="469.1514">live-data-management-service</text><!--MD5=[695deca83134188caee7469131fb5c09]
+entity mds--><rect fill="#438DD5" height="99.1563" style="stroke:#3C7FC0;stroke-width:1.5;" width="230" x="404.0492" y="571"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="482.0492" y="592.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="210" x="414.0492" y="609.8203">bayes-fixtures-backend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="54" x="492.0492" y="624.7324">[Django]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="521.0492" y="640.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="149" x="446.5492" y="656.8545">a.k.a esportsdirectory</text><!--MD5=[bd812e9717e09f6d282bd7c873fc7911]
+entity fd--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="248" x="669.0492" y="587"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="756.0492" y="608.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="228" x="679.0492" y="625.8203">fixtures-directory-service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="141" x="722.5492" y="640.7324">[Spring Boot WebMVC]</text><!--MD5=[57f08eb139bc8464f36f64561631b6b2]
+entity ldo_db--><path d="M952.5492,592.5 C952.5492,582.5 1020.0492,582.5 1020.0492,582.5 C1020.0492,582.5 1087.5492,582.5 1087.5492,592.5 L1087.5492,648.0625 C1087.5492,658.0625 1020.0492,658.0625 1020.0492,658.0625 C1020.0492,658.0625 952.5492,658.0625 952.5492,648.0625 L952.5492,592.5 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M952.5492,592.5 C952.5492,602.5 1020.0492,602.5 1020.0492,602.5 C1020.0492,602.5 1087.5492,602.5 1087.5492,592.5 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="983.0492" y="617.6387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="962.5492" y="635.3203">management</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="983.0492" y="650.2324">[Postgresql]</text><!--MD5=[b1995bfa2c81dec8ea20ef025327a954]
+entity ld_clients_exchange--><path d="M138.5492,991 L341.5492,991 C346.5492,991 346.5492,1043.7266 346.5492,1043.7266 C346.5492,1043.7266 346.5492,1096.4531 341.5492,1096.4531 L138.5492,1096.4531 C133.5492,1096.4531 133.5492,1043.7266 133.5492,1043.7266 C133.5492,1043.7266 133.5492,991 138.5492,991 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M341.5492,991 C336.5492,991 336.5492,1043.7266 336.5492,1043.7266 C336.5492,1096.4531 341.5492,1096.4531 341.5492,1096.4531 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="198.0492" y="1007.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="165.5492" y="1024.8203">live-data.clients</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="134" x="168.0492" y="1039.7324">[RabbitMQ Exchange]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="237.0492" y="1055.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="185" x="142.5492" y="1071.8545">TeamNameChangedEvent,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="85" x="192.5492" y="1088.1514">TickedEvent</text><!--MD5=[7293f14c6776350d78a872a23fa1d78e]
+entity ld_management_exchange--><path d="M158.0492,576 L364.0492,576 C369.0492,576 369.0492,620.5781 369.0492,620.5781 C369.0492,620.5781 369.0492,665.1563 364.0492,665.1563 L158.0492,665.1563 C153.0492,665.1563 153.0492,620.5781 153.0492,620.5781 C153.0492,620.5781 153.0492,576 158.0492,576 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M364.0492,576 C359.0492,576 359.0492,620.5781 359.0492,620.5781 C359.0492,665.1563 364.0492,665.1563 364.0492,665.1563 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="219.0492" y="592.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="196" x="158.0492" y="609.8203">live-data.management</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="134" x="189.0492" y="624.7324">[RabbitMQ Exchange]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="258.0492" y="640.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="134" x="191.0492" y="656.8545">StartParseMessage</text><!--MD5=[8beb40ec837c36e7da842546589c65de]
+entity ld_ingestion_replay_parser_csgo--><rect fill="#438DD5" height="115.4531" style="stroke:#3C7FC0;stroke-width:1.5;" width="429" x="46.5492" y="773"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="224.0492" y="794.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="409" x="56.5492" y="811.8203">live-data-ingestion-csgo-transfer-agent-bayes</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="83" x="219.5492" y="826.7324">[Spring Boot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="263.0492" y="842.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="183.0492" y="858.8545">Configured instance of</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="221" x="150.5492" y="875.1514">live-data-ingestion-replay-parser</text><!--MD5=[b493bad45b6450e0789daf916028de37]
+entity ld_ingestion_replay_parser_dota--><rect fill="#438DD5" height="115.4531" style="stroke:#3C7FC0;stroke-width:1.5;" width="289" x="510.5492" y="773"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="618.0492" y="794.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="269" x="520.5492" y="811.8203">live-data-ingestion-dota-bayes</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="83" x="613.5492" y="826.7324">[Spring Boot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="657.0492" y="842.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="577.0492" y="858.8545">Configured instance of</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="221" x="544.5492" y="875.1514">live-data-ingestion-replay-parser</text><!--MD5=[112cc2a57770a04caec2e27ad807145e]
+entity ld_clarity_ingestion_exchange--><path d="M463.0492,999 L695.0492,999 C700.0492,999 700.0492,1043.5781 700.0492,1043.5781 C700.0492,1043.5781 700.0492,1088.1563 695.0492,1088.1563 L463.0492,1088.1563 C458.0492,1088.1563 458.0492,1043.5781 458.0492,1043.5781 C458.0492,1043.5781 458.0492,999 463.0492,999 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M695.0492,999 C690.0492,999 690.0492,1043.5781 690.0492,1043.5781 C690.0492,1088.1563 695.0492,1088.1563 695.0492,1088.1563 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="74" x="537.0492" y="1015.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="222" x="463.0492" y="1032.8203">live-data.clarity.ingestion</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="134" x="507.0492" y="1047.7324">[RabbitMQ Exchange]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="576.0492" y="1063.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="512.5492" y="1079.8545">IngestionMessage</text><!--MD5=[be39fd5e3f87a8a80d48b5918d67fa0b]
+link operator to ldo_ui--><path d="M519.0492,108.0038 C519.0492,133.6083 519.0492,164.3343 519.0492,188.608 " fill="none" id="operator-to-ldo_ui" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="519.0492,196.9058,522.0492,188.9058,516.0492,188.9058,519.0492,196.9058" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="34" x="523.0492" y="150.1387">uses</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="520.0492" y="164.1074">[HTTP]</text><!--MD5=[48f0c9da027f6d4483c63352ab8c6b83]
+link ldo_ui to ldo_api--><path d="M459.485,264.2092 C449.6143,272.6041 440.7504,282.5432 435.0492,294 C426.5349,311.1097 427.9162,319.2699 435.0492,337 C438.3288,345.1518 442.7709,352.9708 447.9094,360.349 " fill="none" id="ldo_ui-to-ldo_api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="452.8109,366.9979,450.4786,358.7784,445.6491,362.3387,452.8109,366.9979" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="117" x="436.0492" y="306.1387">displays/creates</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="480.0492" y="320.1074">data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="476.5492" y="334.0762">[HTTP]</text><!--MD5=[b5a218151664b5b1cdea4a9827d71e6e]
+reverse link ldo_ui to ldo_api--><path d="M551.6385,271.2102 C555.919,278.44 559.6481,286.1718 562.0492,294 C569.3941,317.9461 563.4801,344.2027 553.948,366.846 " fill="none" id="ldo_ui-backto-ldo_api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="547.2031,264.1627,548.9254,272.5313,554.0033,269.3354,547.2031,264.1627" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="571.0492" y="313.1387">Sends events to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="125" x="566.0492" y="327.1074">[STOMP WebSocket]</text><!--MD5=[5581a14e3947dd63b2e0b0f8d053d556]
+link ldo_api to mds--><path d="M519.0492,482.2464 C519.0492,507.6177 519.0492,537.3457 519.0492,562.7208 " fill="none" id="ldo_api-to-mds" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="519.0492,570.7955,522.0492,562.7955,516.0492,562.7955,519.0492,570.7955" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="520.0492" y="524.1387">fetches data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="545.0492" y="538.1074">[HTTP]</text><!--MD5=[58afcc78b94776851d7ef044d9553318]
+link ldo_api to ldo_db--><path d="M633.3467,457.4904 C718.4318,483.7731 836.4156,523.8975 935.0492,571 C939.9154,573.3238 944.8744,575.8275 949.8292,578.4314 " fill="none" id="ldo_api-to-ldo_db" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="957.0745,582.3087,951.4366,575.8889,948.6055,581.179,957.0745,582.3087" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="95" x="858.0492" y="524.1387">Reads/Writes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="79" x="866.0492" y="538.1074">[JDBC Driver]</text><!--MD5=[70d33082b76b588281c387d39e82aebc]
+link ldo_api to ld_management_exchange--><path d="M443.0361,482.2464 C405.9545,510.4169 361.8029,543.9585 326.2746,570.949 " fill="none" id="ldo_api-to-ld_management_exchange" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="319.7447,575.9097,327.9297,573.4591,324.3002,568.6814,319.7447,575.9097" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="401.0492" y="524.1387">publishes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="399.0492" y="538.1074">[AMQP Json]</text><!--MD5=[5ba79c8d7dc8cc11df2411d51e5ef10b]
+link ldo_api to ld_clients_exchange--><path d="M404.8111,445.4434 C321.8435,465.6184 211.2214,503.3783 135.0492,571 C59.228,638.3101 53.3095,674.5574 29.0492,773 C16.8192,822.6263 6,842.3812 29.0492,888 C50.1066,929.6766 88.1838,962.9262 126.2533,987.8084 " fill="none" id="ldo_api-to-ld_clients_exchange" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="133.3575,992.3573,128.2379,985.517,125.0025,990.5699,133.3575,992.3573" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="53.0492" y="712.1387">consumes queue</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="132" x="49.0492" y="726.1074">live-data.clients.in</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="78.5492" y="740.0762">[AMQP Json]</text><!--MD5=[89270d6e04964433f5e3da13154acd25]
+link ldo_api to fd--><path d="M599.7763,482.2464 C644.693,514.3766 699.3775,553.494 739.1006,581.9091 " fill="none" id="ldo_api-to-fd" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="745.8397,586.7297,741.0784,579.6353,737.5876,584.5153,745.8397,586.7297" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="681.0492" y="524.1387">fetches data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="40" x="706.0492" y="538.1074">[HTTP]</text><!--MD5=[11aeb3af88dfdeace4da40f8880ab514]
+reverse link ld_management_exchange to ld_ingestion_replay_parser_dota--><path d="M351.9622,668.9562 C410.0602,699.9221 485.7007,740.2381 546.8821,772.8475 " fill="none" id="ld_management_exchange-backto-ld_ingestion_replay_parser_dota" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="344.6065,665.0356,350.2552,671.4459,353.0774,666.1511,344.6065,665.0356" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="483.0492" y="719.1387">consumes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="482.0492" y="733.1074">[AMQP Json]</text><!--MD5=[08602a9812fe2b01580991fbea954cda]
+link ld_ingestion_replay_parser_dota to ld_clarity_ingestion_exchange--><path d="M639.569,888.209 C632.973,911.0946 624.785,937.5065 616.0492,961 C612.3435,970.9659 608.0085,981.4336 603.6367,991.4399 " fill="none" id="ld_ingestion_replay_parser_dota-to-ld_clarity_ingestion_exchange" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="600.2961,998.9859,606.2777,992.8851,600.7913,990.4563,600.2961,998.9859" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="631.0492" y="930.1387">publishes with rkey</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="633.5492" y="944.1074">dota2:bayes-clarity</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="666.0492" y="958.0762">[AMQP Json]</text><!--MD5=[04bc6b3704feabccbd5733111f7da9dd]
+link ld_ingestion_replay_parser_dota to ld_clients_exchange--><path d="M567.7116,888.042 C555.5732,897.4736 543.6467,907.5873 533.0492,918 C516.0568,934.6962 520.4572,947.1857 501.0492,961 C476.6408,978.3735 412.9602,998.6466 354.6146,1014.7484 " fill="none" id="ld_ingestion_replay_parser_dota-to-ld_clients_exchange" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="346.7921,1016.8913,355.3005,1017.6709,353.7151,1011.8841,346.7921,1016.8913" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="536.0492" y="937.1387">publishes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="534.0492" y="951.1074">[AMQP Json]</text><!--MD5=[bad664980dad42ad10e8460d7bbb38dd]
+reverse link ld_management_exchange to ld_ingestion_replay_parser_csgo--><path d="M261.0492,673.3676 C261.0492,703.6822 261.0492,741.7656 261.0492,772.8475 " fill="none" id="ld_management_exchange-backto-ld_ingestion_replay_parser_csgo" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="261.0492,665.0356,258.0492,673.0356,264.0492,673.0356,261.0492,665.0356" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="71" x="263.0492" y="719.1387">consumes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="262.0492" y="733.1074">[AMQP Json]</text><!--MD5=[b2a2398342d28f75d644832ddf5bc8c5]
+link ld_ingestion_replay_parser_csgo to ld_clarity_ingestion_exchange--><path d="M296.2626,888.0222 C315.4604,917.858 338.0876,950.2706 352.0492,961 C380.7957,983.0915 416.0178,999.6713 450.0624,1011.9424 " fill="none" id="ld_ingestion_replay_parser_csgo-to-ld_clarity_ingestion_exchange" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="457.7633,1014.6532,451.2134,1009.167,449.2211,1014.8266,457.7633,1014.6532" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="353.0492" y="930.1387">publishes with rkey</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="130" x="359.5492" y="944.1074">csgo:bayes-clarity</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="388.0492" y="958.0762">[AMQP Json]</text><!--MD5=[46f79936f66cd154a8f102f9c68e6942]
+link ld_ingestion_replay_parser_csgo to ld_clients_exchange--><path d="M242.8359,888.4139 C240.4323,898.1981 238.3525,908.3211 237.0492,918 C234.2248,938.9751 233.9748,962.0958 234.7526,982.7161 " fill="none" id="ld_ingestion_replay_parser_csgo-to-ld_clients_exchange" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="235.1131,990.7846,237.753,982.6586,231.7589,982.9265,235.1131,990.7846" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="69" x="240.0492" y="937.1387">publishes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="73" x="238.0492" y="951.1074">[AMQP Json]</text><!--MD5=[2e4fdb466557234bd293c3c6321f5439]
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_TOP_DOWN()
+
+Person(operator, "Operator")
+Container(ldo_ui, "live-data-operation-ui", "React SPA")
+Container(ldo_api, "live-data-operation-api", "Spring Boot WebMVC", "a.k.a live-data-management-service")
+Container(mds, "bayes-fixtures-backend", "Django", "a.k.a esportsdirectory")
+Container(fd, "fixtures-directory-service", "Spring Boot WebMVC")
+ContainerDb(ldo_db, "management", "Postgresql")
+ContainerQueue(ld_clients_exchange, "live-data.clients", "RabbitMQ Exchange", "TeamNameChangedEvent, TickedEvent")
+ContainerQueue(ld_management_exchange, "live-data.management", "RabbitMQ Exchange", "StartParseMessage")
+Container(ld_ingestion_replay_parser_csgo, "live-data-ingestion-csgo-transfer-agent-bayes", "Spring Boot", "Configured instance of live-data-ingestion-replay-parser")
+Container(ld_ingestion_replay_parser_dota, "live-data-ingestion-dota-bayes", "Spring Boot", "Configured instance of live-data-ingestion-replay-parser")
+ContainerQueue(ld_clarity_ingestion_exchange, "live-data.clarity.ingestion", "RabbitMQ Exchange", "IngestionMessage")
+
+Rel(operator, ldo_ui, "uses", "HTTP")
+Rel(ldo_ui, ldo_api, "displays/creates data", "HTTP")
+Rel_U(ldo_api, ldo_ui, "Sends events to", "STOMP WebSocket")
+Rel(ldo_api, mds, "fetches data", "HTTP")
+Rel(ldo_api, ldo_db, "Reads/Writes", "JDBC Driver")
+Rel(ldo_api, ld_management_exchange, "publishes", "AMQP Json")
+Rel(ldo_api, ld_clients_exchange, "consumes queue live-data.clients.in", "AMQP Json")
+Rel(ldo_api, fd, "fetches data", "HTTP")
+Rel_U(ld_ingestion_replay_parser_dota, ld_management_exchange, "consumes", "AMQP Json")
+Rel(ld_ingestion_replay_parser_dota, ld_clarity_ingestion_exchange, "publishes with rkey dota2:bayes-clarity", "AMQP Json")
+Rel(ld_ingestion_replay_parser_dota, ld_clients_exchange, "publishes", "AMQP Json")
+Rel_U(ld_ingestion_replay_parser_csgo, ld_management_exchange, "consumes", "AMQP Json")
+Rel(ld_ingestion_replay_parser_csgo, ld_clarity_ingestion_exchange, "publishes with rkey csgo:bayes-clarity", "AMQP Json")
+Rel(ld_ingestion_replay_parser_csgo, ld_clients_exchange, "publishes", "AMQP Json")
+
+@enduml
+
+@startuml C4_Elements
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+top to bottom direction
+
+rectangle "<$person>\n==Operator" <<person>> as operator
+rectangle "==live-data-operation-ui\n//<size:12>[React SPA]</size>//" <<container>> as ldo_ui
+rectangle "==live-data-operation-api\n//<size:12>[Spring Boot WebMVC]</size>//\n\n a.k.a live-data-management-service" <<container>> as ldo_api
+rectangle "==bayes-fixtures-backend\n//<size:12>[Django]</size>//\n\n a.k.a esportsdirectory" <<container>> as mds
+rectangle "==fixtures-directory-service\n//<size:12>[Spring Boot WebMVC]</size>//" <<container>> as fd
+database "==management\n//<size:12>[Postgresql]</size>//" <<container>> as ldo_db
+queue "==live-data.clients\n//<size:12>[RabbitMQ Exchange]</size>//\n\n TeamNameChangedEvent, TickedEvent" <<container>> as ld_clients_exchange
+queue "==live-data.management\n//<size:12>[RabbitMQ Exchange]</size>//\n\n StartParseMessage" <<container>> as ld_management_exchange
+rectangle "==live-data-ingestion-csgo-transfer-agent-bayes\n//<size:12>[Spring Boot]</size>//\n\n Configured instance of live-data-ingestion-replay-parser" <<container>> as ld_ingestion_replay_parser_csgo
+rectangle "==live-data-ingestion-dota-bayes\n//<size:12>[Spring Boot]</size>//\n\n Configured instance of live-data-ingestion-replay-parser" <<container>> as ld_ingestion_replay_parser_dota
+queue "==live-data.clarity.ingestion\n//<size:12>[RabbitMQ Exchange]</size>//\n\n IngestionMessage" <<container>> as ld_clarity_ingestion_exchange
+
+operator - ->> ldo_ui : **uses**\n//<size:12>[HTTP]</size>//
+ldo_ui - ->> ldo_api : **displays/creates data**\n//<size:12>[HTTP]</size>//
+ldo_api -UP->> ldo_ui : **Sends events to**\n//<size:12>[STOMP WebSocket]</size>//
+ldo_api - ->> mds : **fetches data**\n//<size:12>[HTTP]</size>//
+ldo_api - ->> ldo_db : **Reads/Writes**\n//<size:12>[JDBC Driver]</size>//
+ldo_api - ->> ld_management_exchange : **publishes**\n//<size:12>[AMQP Json]</size>//
+ldo_api - ->> ld_clients_exchange : **consumes queue live-data.clients.in**\n//<size:12>[AMQP Json]</size>//
+ldo_api - ->> fd : **fetches data**\n//<size:12>[HTTP]</size>//
+ld_ingestion_replay_parser_dota -UP->> ld_management_exchange : **consumes**\n//<size:12>[AMQP Json]</size>//
+ld_ingestion_replay_parser_dota - ->> ld_clarity_ingestion_exchange : **publishes with rkey dota2:bayes-clarity**\n//<size:12>[AMQP Json]</size>//
+ld_ingestion_replay_parser_dota - ->> ld_clients_exchange : **publishes**\n//<size:12>[AMQP Json]</size>//
+ld_ingestion_replay_parser_csgo -UP->> ld_management_exchange : **consumes**\n//<size:12>[AMQP Json]</size>//
+ld_ingestion_replay_parser_csgo - ->> ld_clarity_ingestion_exchange : **publishes with rkey csgo:bayes-clarity**\n//<size:12>[AMQP Json]</size>//
+ld_ingestion_replay_parser_csgo - ->> ld_clients_exchange : **publishes**\n//<size:12>[AMQP Json]</size>//
+
+@enduml
+
+PlantUML version 1.2020.22(Sun Dec 06 10:36:27 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
