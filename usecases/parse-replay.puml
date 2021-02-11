@@ -1,0 +1,53 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+LAYOUT_TOP_DOWN()
+
+Person(operator, "Operator")
+Person(dev, "Developer")
+
+System_Boundary(browser, "Browser") {
+    Container(ldo_ui, "live-data-operation-ui", "React SPA")
+}
+
+System_Boundary(hetzner, "Hetzner machine") {
+    Container(taf_client, "transfer-agent-filesystem-client", "Java Swing")
+}
+
+System_Boundary(aws, "AWS Kubernetes Cluster") {
+    Container(ldo_api, "live-data-operation-api", "Spring Boot WebMVC")
+    ContainerQueue(ld_management_exchange, "live-data.management", "RabbitMQ Exchange", "StartParseMessage")
+    ContainerQueue(irp_clarity_exchange, "live-data.clarity.ingestion", "RabbitMQ Exchange", "IngestionMessage")
+    ContainerDb(data_pv, "/data", "persistent volume")
+
+    Container_Boundary(irp, "live-data-ingestion-replay-parser", "Spring Boot") {
+        Component(fileWatcher, "ReplayFileWatcher", "FileAlterationObserver")
+        Component(messageConsumer, "MessageConsumer", "RabbitListener")
+        Component(replayArchivedController, "ReplayArchivedController", "REST Controller")
+        Component(taf_server, "transfer-agent-filesystem-server", "Atmosphere")
+        Component(clarity_parser, "ClarityParser", "Runnable")
+
+        Rel(messageConsumer, ld_management_exchange, "consumes StartParseMessage")
+        Rel(fileWatcher, clarity_parser, "spawns parser when new file detected and immediate-parse is enabled")
+        Rel(fileWatcher, clarity_parser, "spawns pre-parser when new file detected and pre-parse is enabled")
+        Rel(messageConsumer, clarity_parser, "spawns parser with demofile path from StartParseMessage")
+        Rel(replayArchivedController, clarity_parser, "spawns parser with demofile from s3 by name")
+        Rel(taf_server, data_pv, "writes to replay folder")
+        Rel(fileWatcher, data_pv, "watches replay folder")
+    }
+
+    Rel(ldo_api, ld_management_exchange, "publishes StartParseMessage", "AMQP")
+    Rel_D(clarity_parser, irp_clarity_exchange, "publishes IngestionMessage", "AMQP")
+}
+
+
+Rel_D(operator, ldo_ui, "clicks start parse button for demo file", "HTTP")
+Rel_D(ldo_ui, ldo_api, "calls update demo file endpoint", "HTTP")
+
+Rel_D(operator, taf_client, "starts tranfer-agent client", "Remote Desktop")
+Rel_D(taf_client, taf_server, "transfers byte chunks from demofile currently recorded", "WebSocket")
+
+Rel(dev, replayArchivedController, "starts parsing a replay from s3 for debugging", "HTTP")
+
+@enduml

@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1355px" preserveAspectRatio="none" style="width:1480px;height:1355px;" version="1.1" viewBox="0 0 1480 1355" width="1480px" zoomAndPan="magnify"><defs/><g><!--MD5=[2de28e47f9582cb6df153deeec479525]
+cluster browser--><rect fill="#FFFFFF" height="134" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="226" x="168" y="189"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="239" y="203.9951">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="243.5" y="222.1484">Browser</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="250" y="237.0605">[System]</text><!--MD5=[13b6f57dda83b2a55c0ae8c0aa46e948]
+cluster hetzner--><rect fill="#FFFFFF" height="134" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="320" x="441" y="189"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="559" y="203.9951">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="149" x="526.5" y="222.1484">Hetzner machine</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="570" y="237.0605">[System]</text><!--MD5=[c444070a69c905f8781a2e7d91c12e8c]
+cluster aws--><rect fill="#FFFFFF" height="908" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1467" x="7" y="441"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="698.5" y="455.9951">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="220" x="630.5" y="474.1484">AWS Kubernetes Cluster</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="709.5" y="489.0605">[System]</text><!--MD5=[d01e0c1d2d54702b0f6cef745c86b168]
+cluster irp--><rect fill="#FFFFFF" height="595" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1052" x="414" y="500"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="99" x="890.5" y="514.9951">«Spring Boot»</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="898" y="531.292">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="289" x="795.5" y="549.4453">live-data-ingestion-replay-parser</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="80" x="900" y="564.3574">[Container]</text><!--MD5=[2d511429c5a6b4117710edfedb36d875]
+entity ldo_ui--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="209" x="176.5" y="248"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="244" y="269.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="189" x="186.5" y="286.8203">live-data-operation-ui</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="73" x="244.5" y="301.7324">[React SPA]</text><!--MD5=[a0656447dadd6abeed87c715b5dbc7b3]
+entity taf_client--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="304" x="449" y="248"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="564" y="269.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="284" x="459" y="286.8203">transfer-agent-filesystem-client</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="562.5" y="301.7324">[Java Swing]</text><!--MD5=[991b385b0a550d6a0a674d6404a4764a]
+entity ldo_api--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="219" x="91.5" y="576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="164" y="597.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="199" x="101.5" y="614.8203">live-data-operation-api</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="141" x="130.5" y="629.7324">[Spring Boot WebMVC]</text><!--MD5=[7293f14c6776350d78a872a23fa1d78e]
+entity ld_management_exchange--><path d="M20,808 L226,808 C231,808 231,852.5781 231,852.5781 C231,852.5781 231,897.1563 226,897.1563 L20,897.1563 C15,897.1563 15,852.5781 15,852.5781 C15,852.5781 15,808 20,808 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M226,808 C221,808 221,852.5781 221,852.5781 C221,897.1563 226,897.1563 226,897.1563 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="81" y="824.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="196" x="20" y="841.8203">live-data.management</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="134" x="51" y="856.7324">[RabbitMQ Exchange]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="120" y="872.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="53" y="888.8545">StartParseMessage</text><!--MD5=[a73dea3b015194bc82057b8ed9f399ce]
+entity irp_clarity_exchange--><path d="M862,1252 L1094,1252 C1099,1252 1099,1296.5781 1099,1296.5781 C1099,1296.5781 1099,1341.1563 1094,1341.1563 L862,1341.1563 C857,1341.1563 857,1296.5781 857,1296.5781 C857,1296.5781 857,1252 862,1252 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M1094,1252 C1089,1252 1089,1296.5781 1089,1296.5781 C1089,1341.1563 1094,1341.1563 1094,1341.1563 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="936" y="1268.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="222" x="862" y="1285.8203">live-data.clarity.ingestion</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="134" x="906" y="1300.7324">[RabbitMQ Exchange]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="975" y="1316.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="911.5" y="1332.8545">IngestionMessage</text><!--MD5=[1c6d1e35b6057bffe2c26caca1a22ce1]
+entity data_pv--><path d="M266,824.5 C266,814.5 336,814.5 336,814.5 C336,814.5 406,814.5 406,824.5 L406,880.0625 C406,890.0625 336,890.0625 336,890.0625 C336,890.0625 266,890.0625 266,880.0625 L266,824.5 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:1.5;"/><path d="M266,824.5 C266,834.5 336,834.5 336,834.5 C336,834.5 406,834.5 406,824.5 " fill="none" style="stroke:#3C7FC0;stroke-width:1.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="299" y="849.6387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="45" x="313.5" y="867.3203">/data</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="120" x="276" y="882.2324">[persistent volume]</text><!--MD5=[0c9f444743ed636c1507b8ccd2162b53]
+entity fileWatcher--><rect fill="#85BBF0" height="66.5625" style="stroke:#78A8D8;stroke-width:1.5;" width="183" x="1274.5" y="576"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="85" x="1323.5" y="597.1387">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="163" x="1284.5" y="614.8203">ReplayFileWatcher</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="146" x="1293" y="629.7324">[FileAlterationObserver]</text><!--MD5=[613086d5402580d0fe053bcaa90f41e2]
+entity messageConsumer--><rect fill="#85BBF0" height="66.5625" style="stroke:#78A8D8;stroke-width:1.5;" width="189" x="422.5" y="576"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="85" x="474.5" y="597.1387">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="169" x="432.5" y="614.8203">MessageConsumer</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="100" x="467" y="629.7324">[RabbitListener]</text><!--MD5=[8c7df29c61fe161e549c583a32bfb7e4]
+entity replayArchivedController--><rect fill="#85BBF0" height="66.5625" style="stroke:#78A8D8;stroke-width:1.5;" width="243" x="996.5" y="576"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="85" x="1075.5" y="597.1387">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="223" x="1006.5" y="614.8203">ReplayArchivedController</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="106" x="1065" y="629.7324">[REST Controller]</text><!--MD5=[b3dfae94892e250e40f490aa8b812d01]
+entity taf_server--><rect fill="#85BBF0" height="66.5625" style="stroke:#78A8D8;stroke-width:1.5;" width="314" x="647" y="576"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="85" x="761.5" y="597.1387">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="294" x="657" y="614.8203">transfer-agent-filesystem-server</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="85" x="761.5" y="629.7324">[Atmosphere]</text><!--MD5=[72f1a67c52fa40caa24ee39de0bdb11d]
+entity clarity_parser--><rect fill="#85BBF0" height="66.5625" style="stroke:#78A8D8;stroke-width:1.5;" width="135" x="910.5" y="1020"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="85" x="935.5" y="1041.1387">«component»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="115" x="920.5" y="1058.8203">ClarityParser</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="69" x="943.5" y="1073.7324">[Runnable]</text><!--MD5=[0050c6625e3b42e2857ba4d8ed699679]
+entity operator--><rect fill="#08427B" height="100.5938" style="stroke:#073B6F;stroke-width:1.5;" width="101" x="405.5" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="427.5" y="28.1387">«person»</text><image height="48" width="48" x="432" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="30.9688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="81" x="415.5" y="93.8203">Operator</text><!--MD5=[3d99d59a27ec55cd9b0b1490801f78bc]
+entity dev--><rect fill="#08427B" height="100.5938" style="stroke:#073B6F;stroke-width:1.5;" width="110" x="1063" y="231"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="57" x="1089.5" y="252.1387">«person»</text><image height="48" width="48" x="1094" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="254.9688"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="90" x="1073" y="317.8203">Developer</text><!--MD5=[d1e9802308d5cc9800c80ebd772920f7]
+link messageConsumer to ld_management_exchange--><path d="M427.9783,643.0682 C375.2821,663.6128 314.2226,688.7916 290,704 C246.0753,731.5786 202.487,770.8476 170.8612,802.0778 " fill="none" id="messageConsumer-to-ld_management_exchange" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="165.0978,807.811,172.8852,804.2959,168.6538,800.0421,165.0978,807.811" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="71" x="324" y="723.1387">consumes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="141" x="291" y="737.1074">StartParseMessage</text><!--MD5=[63539f4a248f1ea533948efcc6725846]
+link fileWatcher to clarity_parser--><path d="M1274.2585,638.5018 C1192.9407,665.5734 1087,704.8122 1087,725.5 C1087,725.5 1087,725.5 1087,958.5 C1087,982.6315 1071.6294,1002.0357 1052.4322,1016.8601 " fill="none" id="fileWatcher-to-clarity_parser" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1045.7918,1021.7122,1054.0211,1019.4147,1050.4812,1014.5701,1045.7918,1021.7122" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="149" x="1088" y="829.1387">spawns parser when</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="1098.5" y="843.1074">new file detected</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="27" x="1147" y="857.0762">and</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="136" x="1092.5" y="871.0449">immediate-parse is</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="58" x="1133.5" y="885.0137">enabled</text><!--MD5=[63539f4a248f1ea533948efcc6725846]
+link fileWatcher to clarity_parser--><path d="M1338.6984,643.364 C1323.6549,665.4137 1308,695.5538 1308,725.5 C1308,725.5 1308,725.5 1308,958.5 C1308,1011.1243 1151.07,1036.3462 1053.6472,1046.9337 " fill="none" id="fileWatcher-to-clarity_parser-1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1045.5767,1047.7922,1053.8492,1049.9289,1053.2144,1043.9626,1045.5767,1047.7922" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="135" x="1313.5" y="836.1387">spawns pre-parser</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="99" x="1331.5" y="850.1074">when new file</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="95" x="1333.5" y="864.0762">detected and</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="148" x="1309" y="878.0449">pre-parse is enabled</text><!--MD5=[5e49d936fe2a67877d754f198866403b]
+link messageConsumer to clarity_parser--><path d="M611.7215,638.5083 C617.8859,640.1088 624.0178,641.6231 630,643 C669.7321,652.1451 784.6327,641.9027 811,673 C832.2698,698.0854 828.6787,719.2666 811,747 C793.7387,774.0787 697.2613,780.9213 680,808 C658.7378,841.3551 659.5408,863.1465 680,897 C727.9479,976.3385 830.9021,1017.4443 902.2791,1037.2354 " fill="none" id="messageConsumer-to-clarity_parser" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="910.3859,1039.4296,903.4476,1034.4437,901.88,1040.2353,910.3859,1039.4296" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="141" x="681" y="843.1387">spawns parser with</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="134" x="684.5" y="857.1074">demofile path from</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="141" x="683" y="871.0762">StartParseMessage</text><!--MD5=[e0cef8e481dced09663709f991b0ac4f]
+link replayArchivedController to clarity_parser--><path d="M998.7216,643.0694 C935.1884,664.6073 870,694.3067 870,725.5 C870,725.5 870,725.5 870,958.5 C870,982.2816 884.9462,1001.5164 903.7184,1016.2961 " fill="none" id="replayArchivedController-to-clarity_parser" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="910.2152,1021.1377,905.5932,1013.9518,902.0079,1018.7628,910.2152,1021.1377" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="141" x="871" y="843.1387">spawns parser with</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="138" x="872.5" y="857.1074">demofile from s3 by</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="39" x="924" y="871.0762">name</text><!--MD5=[a666b0af3d86a88408984a5b499fbf6f]
+link taf_server to data_pv--><path d="M654.1578,643.0427 C604.1945,657.6926 549.4622,677.6733 503,704 C454.2213,731.6393 407.2996,775.3922 375.6811,808.2604 " fill="none" id="taf_server-to-data_pv" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="369.9583,814.2646,377.6494,810.5435,373.3062,806.4038,369.9583,814.2646" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="113" x="504" y="723.1387">writes to replay</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="541.5" y="737.1074">folder</text><!--MD5=[c346e603ae4ed3a65deda695a04c3f5e]
+link fileWatcher to data_pv--><path d="M1274.3561,638.613 C1268.5046,640.1779 1262.6835,641.6565 1257,643 C1178.4981,661.556 1157.3221,658.3418 1078,673 C929.0759,700.5202 551.1743,753.1769 410,808 C407.7728,808.8649 405.5361,809.7946 403.2998,810.7776 " fill="none" id="fileWatcher-to-data_pv" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="395.7116,814.309,404.2304,813.6533,401.6987,808.2136,395.7116,814.309" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="109" x="887" y="723.1387">watches replay</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="922.5" y="737.1074">folder</text><!--MD5=[70d33082b76b588281c387d39e82aebc]
+link ldo_api to ld_management_exchange--><path d="M134.9784,643.204 C112.2989,658.4481 89.4918,678.7741 77,704 C61.8179,734.6585 72.9485,771.364 88.0566,800.6116 " fill="none" id="ldo_api-to-ld_management_exchange" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="91.9697,807.8785,90.8181,799.4125,85.5353,802.2572,91.9697,807.8785" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="69" x="112" y="716.1387">publishes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="141" x="78" y="730.1074">StartParseMessage</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="127" y="744.0762">[AMQP]</text><!--MD5=[35aa04a0feb14489dc6be8ae4e111ed7]
+link clarity_parser to irp_clarity_exchange--><path d="M978,1087.033 C978,1127.5255 978,1196.1138 978,1243.7241 " fill="none" id="clarity_parser-to-irp_clarity_exchange" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="978,1251.767,981,1243.767,975,1243.767,978,1251.767" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="69" x="1008" y="1160.1387">publishes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="131" x="979" y="1174.1074">IngestionMessage</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="43" x="1023" y="1188.0762">[AMQP]</text><!--MD5=[be39fd5e3f87a8a80d48b5918d67fa0b]
+link operator to ldo_ui--><path d="M405.0957,97.4777 C391.2242,109.6684 376.7876,123.6614 365,138 C338.8894,169.7611 315.8313,210.6001 300.5114,240.5842 " fill="none" id="operator-to-ldo_ui" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="296.7861,247.9613,303.0702,242.1725,297.7143,239.4679,296.7861,247.9613" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="122" x="373.5" y="150.1387">clicks start parse</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="141" x="366" y="164.1074">button for demo file</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="416.5" y="178.0762">[HTTP]</text><!--MD5=[48f0c9da027f6d4483c63352ab8c6b83]
+link ldo_ui to ldo_api--><path d="M272.8146,315.0603 C258.1116,375.3425 227.2699,501.7934 211.2107,567.6362 " fill="none" id="ldo_ui-to-ldo_api" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="209.2337,575.742,214.044,568.6807,208.2149,567.259,209.2337,575.742" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="130" x="261" y="388.1387">calls update demo</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="90" x="283" y="402.1074">file endpoint</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="308" y="416.0762">[HTTP]</text><!--MD5=[6b42505939fb0c1a175f3e7d0efd23ba]
+link operator to taf_client--><path d="M494.9172,108.0179 C502.1152,117.8316 509.4288,128.1355 516,138 C538.4942,171.768 561.83,211.5628 578.3466,240.6696 " fill="none" id="operator-to-taf_client" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="582.3942,247.8292,581.0686,239.3887,575.8455,242.3415,582.3942,247.8292" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="144" x="544" y="150.1387">starts tranfer-agent</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="39" x="598.5" y="164.1074">client</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="561.5" y="178.0762">[Remote Desktop]</text><!--MD5=[7d3f33f41ad7662ce18aa453b1621c62]
+link taf_client to taf_server--><path d="M621.7706,315.0603 C659.3073,375.7108 738.298,503.3411 778.8331,568.8363 " fill="none" id="taf_client-to-taf_server" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="783.1071,575.742,781.4479,567.3606,776.346,570.5182,783.1071,575.742" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="102" x="704.5" y="374.1387">transfers byte</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="86" x="712.5" y="388.1074">chunks from</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="129" x="691" y="402.0762">demofile currently</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="64" x="725.5" y="416.0449">recorded</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="717" y="430.0137">[WebSocket]</text><!--MD5=[079e1959313cd4321e3e8dfad9eb2502]
+link dev to replayArchivedController--><path d="M1118,332.0312 C1118,396.7349 1118,507.6582 1118,567.7932 " fill="none" id="dev-to-replayArchivedController" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1118,575.9313,1121,567.9313,1115,567.9313,1118,575.9313" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="114" x="1124.5" y="381.1387">starts parsing a</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="125" x="1119" y="395.1074">replay from s3 for</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="1145.5" y="409.0762">debugging</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1163.5" y="423.0449">[HTTP]</text><!--MD5=[46feb085c44c46f1e05f6d6ffbbdfa22]
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+LAYOUT_TOP_DOWN()
+
+Person(operator, "Operator")
+Person(dev, "Developer")
+
+System_Boundary(browser, "Browser") {
+    Container(ldo_ui, "live-data-operation-ui", "React SPA")
+}
+
+System_Boundary(hetzner, "Hetzner machine") {
+    Container(taf_client, "transfer-agent-filesystem-client", "Java Swing")
+}
+
+System_Boundary(aws, "AWS Kubernetes Cluster") {
+    Container(ldo_api, "live-data-operation-api", "Spring Boot WebMVC")
+    ContainerQueue(ld_management_exchange, "live-data.management", "RabbitMQ Exchange", "StartParseMessage")
+    ContainerQueue(irp_clarity_exchange, "live-data.clarity.ingestion", "RabbitMQ Exchange", "IngestionMessage")
+    ContainerDb(data_pv, "/data", "persistent volume")
+
+    Container_Boundary(irp, "live-data-ingestion-replay-parser", "Spring Boot") {
+        Component(fileWatcher, "ReplayFileWatcher", "FileAlterationObserver")
+        Component(messageConsumer, "MessageConsumer", "RabbitListener")
+        Component(replayArchivedController, "ReplayArchivedController", "REST Controller")
+        Component(taf_server, "transfer-agent-filesystem-server", "Atmosphere")
+        Component(clarity_parser, "ClarityParser", "Runnable")
+
+        Rel(messageConsumer, ld_management_exchange, "consumes StartParseMessage")
+        Rel(fileWatcher, clarity_parser, "spawns parser when new file detected and immediate-parse is enabled")
+        Rel(fileWatcher, clarity_parser, "spawns pre-parser when new file detected and pre-parse is enabled")
+        Rel(messageConsumer, clarity_parser, "spawns parser with demofile path from StartParseMessage")
+        Rel(replayArchivedController, clarity_parser, "spawns parser with demofile from s3 by name")
+        Rel(taf_server, data_pv, "writes to replay folder")
+        Rel(fileWatcher, data_pv, "watches replay folder")
+    }
+
+    Rel(ldo_api, ld_management_exchange, "publishes StartParseMessage", "AMQP")
+    Rel_D(clarity_parser, irp_clarity_exchange, "publishes IngestionMessage", "AMQP")
+}
+
+
+Rel_D(operator, ldo_ui, "clicks start parse button for demo file", "HTTP")
+Rel_D(ldo_ui, ldo_api, "calls update demo file endpoint", "HTTP")
+
+Rel_D(operator, taf_client, "starts tranfer-agent client", "Remote Desktop")
+Rel_D(taf_client, taf_server, "transfers byte chunks from demofile currently recorded", "WebSocket")
+
+Rel(dev, replayArchivedController, "starts parsing a replay from s3 for debugging", "HTTP")
+
+@enduml
+
+@startuml C4_Elements
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+top to bottom direction
+
+rectangle "<$person>\n==Operator" <<person>> as operator
+rectangle "<$person>\n==Developer" <<person>> as dev
+
+rectangle "==Browser\n<size:12>[System]</size>" <<boundary>> as browser {
+    rectangle "==live-data-operation-ui\n//<size:12>[React SPA]</size>//" <<container>> as ldo_ui
+}
+
+rectangle "==Hetzner machine\n<size:12>[System]</size>" <<boundary>> as hetzner {
+    rectangle "==transfer-agent-filesystem-client\n//<size:12>[Java Swing]</size>//" <<container>> as taf_client
+}
+
+rectangle "==AWS Kubernetes Cluster\n<size:12>[System]</size>" <<boundary>> as aws {
+    rectangle "==live-data-operation-api\n//<size:12>[Spring Boot WebMVC]</size>//" <<container>> as ldo_api
+    queue "==live-data.management\n//<size:12>[RabbitMQ Exchange]</size>//\n\n StartParseMessage" <<container>> as ld_management_exchange
+    queue "==live-data.clarity.ingestion\n//<size:12>[RabbitMQ Exchange]</size>//\n\n IngestionMessage" <<container>> as irp_clarity_exchange
+    database "==/data\n//<size:12>[persistent volume]</size>//" <<container>> as data_pv
+
+rectangle "==live-data-ingestion-replay-parser\n<size:12>[Container]</size>" <<Spring Boot>><<boundary>> as irp {
+        rectangle "==ReplayFileWatcher\n//<size:12>[FileAlterationObserver]</size>//" <<component>> as fileWatcher
+        rectangle "==MessageConsumer\n//<size:12>[RabbitListener]</size>//" <<component>> as messageConsumer
+        rectangle "==ReplayArchivedController\n//<size:12>[REST Controller]</size>//" <<component>> as replayArchivedController
+        rectangle "==transfer-agent-filesystem-server\n//<size:12>[Atmosphere]</size>//" <<component>> as taf_server
+        rectangle "==ClarityParser\n//<size:12>[Runnable]</size>//" <<component>> as clarity_parser
+
+messageConsumer - ->> ld_management_exchange : **consumes StartParseMessage**
+fileWatcher - ->> clarity_parser : **spawns parser when new file detected and immediate-parse is enabled**
+fileWatcher - ->> clarity_parser : **spawns pre-parser when new file detected and pre-parse is enabled**
+messageConsumer - ->> clarity_parser : **spawns parser with demofile path from StartParseMessage**
+replayArchivedController - ->> clarity_parser : **spawns parser with demofile from s3 by name**
+taf_server - ->> data_pv : **writes to replay folder**
+fileWatcher - ->> data_pv : **watches replay folder**
+    }
+
+ldo_api - ->> ld_management_exchange : **publishes StartParseMessage**\n//<size:12>[AMQP]</size>//
+clarity_parser -DOWN->> irp_clarity_exchange : **publishes IngestionMessage**\n//<size:12>[AMQP]</size>//
+}
+
+
+operator -DOWN->> ldo_ui : **clicks start parse button for demo file**\n//<size:12>[HTTP]</size>//
+ldo_ui -DOWN->> ldo_api : **calls update demo file endpoint**\n//<size:12>[HTTP]</size>//
+
+operator -DOWN->> taf_client : **starts tranfer-agent client**\n//<size:12>[Remote Desktop]</size>//
+taf_client -DOWN->> taf_server : **transfers byte chunks from demofile currently recorded**\n//<size:12>[WebSocket]</size>//
+
+dev - ->> replayArchivedController : **starts parsing a replay from s3 for debugging**\n//<size:12>[HTTP]</size>//
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
