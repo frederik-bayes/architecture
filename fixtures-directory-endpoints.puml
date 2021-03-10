@@ -1,0 +1,61 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+LAYOUT_TOP_DOWN()
+
+System_Boundary(aws, "AWS Kubernetes Cluster") {
+    Container_Boundary(fds, "fixtures-directory-service") {        
+        Boundary(ld_api, "/api/livedata/v1") {
+            Component(fd_livedata_api_identifiers, "/identifiers", "HTTP/REST")
+        }
+        Boundary(internal_api, "/api/internal/v1") {
+            Component(fd_internal_api_matches, "GET /matches", "HTTP/REST")
+            Component(fd_internal_api_match_by_id, "GET /matches/{id}", "HTTP/REST")
+            Component(fd_internal_api_tournaments, "GET /tournaments", "HTTP/REST")
+            Component(fd_internal_api_id_byperid, "POST /identifiers/byperid", "HTTP/REST")
+            Component(fd_internal_api_id_byextid, "POST /identifiers/byextid", "HTTP/REST")
+            Component(fd_internal_api_tournaments_lu, "GET /tournaments/lookup", "HTTP/REST")
+            Component(fd_internal_api_post_game, "POST /matches/{idOrPerid}/games", "HTTP/REST")
+            Component(fd_internal_api_fixtures_lookup_match, "GET /fixtures/lookup/bymatch", "HTTP/REST")
+            Component(fd_internal_api_titles_by_id, "GET /titles/{id}", "HTTP/REST")
+        }
+        Boundary(public_api, "/api/v1") {
+            Component(fd_public_api_identifiers_lu, "/identifiers/lookup", "HTTP/REST")
+            Component(fd_public_api_match, "/match", "HTTP/REST")
+        }        
+    }
+    Container(ldo_api, "live-data-operation-api", "Java Spring Boot", "a.k.a live-data-management-service")
+    Container(ld_parser_csgo_prodb, "live-data-parser-csgo-prodb", "Java Spring Boot")
+    Container(ld_parser_lol_riot, "live-data-parser-lol-riot", "Java Spring Boot")
+    Container(ld_parser_dota_bayes, "live-data-parser-dota-bayes", "Java Spring Boot")
+    Container(ld_parser_csgo_bayes, "live-data-parser-csgo-bayes", "Java Spring Boot")
+    Container(ld_exporter_customer, "live-data-exporter-customer", "Java Spring Boot")
+    Container(historic_data_service, "historic-data-service", "Java Spring Boot")
+    Container(bp_api, "big-picture-data-api", "Java Spring Boot")
+    Container(bdx_mgmt_service, "bedex-management-service", "Java Spring Boot")
+
+    Rel(ldo_api, fd_internal_api_matches, "periodic sync")
+    Rel(ldo_api, fd_internal_api_tournaments, "periodic sync")
+    Rel(ldo_api, fd_internal_api_id_byperid, "announces urns")
+    Rel(ldo_api, fd_internal_api_tournaments_lu, "by perid")
+    Rel(ldo_api, fd_internal_api_post_game, "get or create game perid for announcing urn")
+    Rel(bdx_mgmt_service, fd_public_api_identifiers_lu, "by stream path")
+    Rel(bdx_mgmt_service, fd_internal_api_tournaments_lu, "by perid")
+    Rel(bdx_mgmt_service, fd_internal_api_fixtures_lookup_match, "by match perid")
+    Rel(bdx_mgmt_service, fd_internal_api_titles_by_id, "fetches")
+    Rel(bdx_mgmt_service, fd_public_api_match, "limit by date / coverage-provider")
+    Rel(bp_api, fd_public_api_identifiers_lu, "by urn")
+    Rel(bp_api, fd_internal_api_tournaments_lu, "by perid")
+    Rel(bp_api, fd_public_api_match, "limit by date / title")
+    Rel_U(ld_parser_csgo_prodb, fd_livedata_api_identifiers, "posts esl ids")
+    Rel_U(ld_parser_lol_riot, fd_livedata_api_identifiers, "posts riot ids")
+    Rel_U(ld_parser_dota_bayes, fd_livedata_api_identifiers, "posts references")
+    Rel_U(ld_parser_csgo_bayes, fd_livedata_api_identifiers, "posts references")
+    Rel_U(ld_exporter_customer, fd_internal_api_id_byextid, "posts stream path for urn")
+    Rel_U(ld_exporter_customer, fd_public_api_identifiers_lu, "by several external ids")
+    Rel_U(historic_data_service, fd_public_api_identifiers_lu, "by riot or esl id")
+    Rel_U(historic_data_service, fd_internal_api_match_by_id, "fetches")
+}
+
+@enduml
