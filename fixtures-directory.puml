@@ -1,0 +1,40 @@
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_TOP_DOWN()
+
+System_Boundary(aws, "AWS Kubernetes Cluster") {
+    Container(fd, "fixtures-directory-service", "Java Spring Boot")
+    Container(ldo_api, "live-data-operation-api", "Java Spring Boot", "a.k.a live-data-management-service")
+    Container(ld_parser_csgo_prodb, "live-data-parser-csgo-prodb", "Java Spring Boot")
+    Container(ld_parser_lol_riot, "live-data-parser-lol-riot", "Java Spring Boot")
+    Container(ld_parser_dota_bayes, "live-data-parser-dota-bayes", "Java Spring Boot")
+    Container(ld_parser_csgo_bayes, "live-data-parser-csgo-bayes", "Java Spring Boot")
+    Container(ld_exporter_customer, "live-data-exporter-customer", "Java Spring Boot")
+    Container(historic_data_service, "historic-data-service", "Java Spring Boot")
+    Container(bp_api, "big-picture-data-api", "Java Spring Boot")
+    Container(bdx_mgmt_service, "bedex-management-service", "Java Spring Boot")
+
+    Rel(ldo_api, fd, "fetches data", "HTTP")
+    Rel(ldo_api, fd, "announces game and team URN's", "HTTP")
+    Rel(ld_parser_csgo_prodb, fd, "announces references (esl ids) and looking up match perId", "HTTP")
+    Rel_U(ld_parser_lol_riot, fd, "announces references (riot ids) and looking up match perId", "HTTP")
+    Rel_U(ld_parser_dota_bayes, fd, "announces references and looking up match perId", "HTTP")
+    Rel(ld_parser_csgo_bayes, fd, "announces references and looking up match perId", "HTTP")
+    Rel_U(ld_exporter_customer, fd, "posts stream path for urn", "HTTP")
+    Rel_U(ld_exporter_customer, fd, "looking up match by external id", "HTTP")
+    Rel(historic_data_service, fd, "looking up match by external id", "HTTP")
+    Rel(historic_data_service, fd, "GET match by id", "HTTP")
+    Rel(bp_api, fd, "looking up match by external id", "HTTP")
+    Rel(bp_api, fd, "looking up tournament by perid", "HTTP")
+    Rel(bp_api, fd, "GET matches limit by date / title", "HTTP")
+    Rel_U(bdx_mgmt_service, fd, "looking up match by external id", "HTTP")
+    Rel_U(bdx_mgmt_service, fd, "looking up tournament by perid", "HTTP")
+    Rel_U(bdx_mgmt_service, fd, "looking up fixture by match perid", "HTTP")
+    Rel_U(bdx_mgmt_service, fd, "GET title by id", "HTTP")
+    Rel_U(bdx_mgmt_service, fd, "GET matches limit by date / coverage-provider", "HTTP")
+
+    Lay_L(bdx_mgmt_service, fd)
+}
+
+@enduml

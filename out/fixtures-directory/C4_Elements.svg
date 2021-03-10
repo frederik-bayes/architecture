@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="715px" preserveAspectRatio="none" style="width:1917px;height:715px;" version="1.1" viewBox="0 0 1917 715" width="1917px" zoomAndPan="magnify"><defs/><g><!--MD5=[c444070a69c905f8781a2e7d91c12e8c]
+cluster aws--><rect fill="#FFFFFF" height="702" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1904" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="917" y="21.9951">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="220" x="849" y="40.1484">AWS Kubernetes Cluster</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="928" y="55.0605">[System]</text><!--MD5=[bd812e9717e09f6d282bd7c873fc7911]
+entity fd--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="248" x="789" y="374"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="876" y="395.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="228" x="799" y="412.8203">fixtures-directory-service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="856.5" y="427.7324">[Java Spring Boot]</text><!--MD5=[991b385b0a550d6a0a674d6404a4764a]
+entity ldo_api--><rect fill="#438DD5" height="115.4531" style="stroke:#3C7FC0;stroke-width:1.5;" width="228" x="1543" y="66"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="1620" y="87.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="199" x="1557.5" y="104.8203">live-data-operation-api</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="1600.5" y="119.7324">[Java Spring Boot]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1659" y="135.5576"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="1641" y="151.8545">a.k.a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="1553" y="168.1514">live-data-management-service</text><!--MD5=[81c89410acbbf03fea8cc76c8b5aafc6]
+entity ld_parser_csgo_prodb--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="268" x="1217" y="90"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="1314" y="111.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="248" x="1227" y="128.8203">live-data-parser-csgo-prodb</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="1294.5" y="143.7324">[Java Spring Boot]</text><!--MD5=[aaae9efb30dbb6d1991892ff31cecaee]
+entity ld_parser_lol_riot--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="224" x="991" y="634"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="1066" y="655.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="204" x="1001" y="672.8203">live-data-parser-lol-riot</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="1046.5" y="687.7324">[Java Spring Boot]</text><!--MD5=[9d8ac4646f99db3b74ea437550bc7e1e]
+entity ld_parser_dota_bayes--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="266" x="1250" y="634"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="1346" y="655.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="246" x="1260" y="672.8203">live-data-parser-dota-bayes</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="1326.5" y="687.7324">[Java Spring Boot]</text><!--MD5=[e58732cf92dae63f744b461cf48daa59]
+entity ld_parser_csgo_bayes--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="268" x="914" y="90"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="1011" y="111.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="248" x="924" y="128.8203">live-data-parser-csgo-bayes</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="991.5" y="143.7324">[Java Spring Boot]</text><!--MD5=[42824f6937b1da2f529fc0e3515c95d2]
+entity ld_exporter_customer--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="272" x="1585" y="634"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="1684" y="655.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="252" x="1595" y="672.8203">live-data-exporter-customer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="1664.5" y="687.7324">[Java Spring Boot]</text><!--MD5=[ae74ec0bd0a090d7dd17178b948a4e07]
+entity historic_data_service--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="203" x="640.5" y="90"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="705" y="111.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="183" x="650.5" y="128.8203">historic-data-service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="685.5" y="143.7324">[Java Spring Boot]</text><!--MD5=[e3539432bc35db27e1542d8c0f7d5ac1]
+entity bp_api--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="194" x="171" y="90"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="231" y="111.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="174" x="181" y="128.8203">big-picture-data-api</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="211.5" y="143.7324">[Java Spring Boot]</text><!--MD5=[bd5360bf15d8ceef21e1258601055dc0]
+entity bdx_mgmt_service--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="267" x="280.5" y="634"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="74" x="377" y="655.1387">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="247" x="290.5" y="672.8203">bedex-management-service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="113" x="357.5" y="687.7324">[Java Spring Boot]</text><!--MD5=[89270d6e04964433f5e3da13154acd25]
+link ldo_api to fd--><path d="M1602.4533,181.1414 C1558.2205,224.2957 1492.0747,281.1568 1423,313 C1357.3176,343.2793 1173.2575,372.7673 1045.2424,390.5349 " fill="none" id="ldo_api-to-fd" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1037.2769,391.6354,1045.6122,393.5123,1044.7911,387.5688,1037.2769,391.6354" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="90" x="1534" y="275.1387">fetches data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1559" y="289.1074">[HTTP]</text><!--MD5=[89270d6e04964433f5e3da13154acd25]
+link ldo_api to fd--><path d="M1666.5839,181.1436 C1670.0727,223.4283 1666.6903,279.1569 1633,313 C1592.3159,353.8686 1242.01,384.59 1045.4388,398.793 " fill="none" id="ldo_api-to-fd-1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1037.3544,399.3741,1045.5489,401.7928,1045.1187,395.8083,1037.3544,399.3741" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="121" x="1666" y="268.1387">announces game</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="112" x="1672.5" y="282.1074">and team URN's</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1708.5" y="296.0762">[HTTP]</text><!--MD5=[e75972beedeefb76703fe5203c22cdde]
+link ld_parser_csgo_prodb to fd--><path d="M1332.1422,157.2058 C1306.8632,199.4465 1258.1308,271.3421 1198,313 C1152.5554,344.4835 1095.8504,366.0998 1045.0145,380.6211 " fill="none" id="ld_parser_csgo_prodb-to-fd" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1037.2343,382.8018,1045.7471,383.5313,1044.1277,377.754,1037.2343,382.8018" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="78" x="1302.5" y="254.1387">announces</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="137" x="1273" y="268.1074">references (esl ids)</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="105" x="1289" y="282.0762">and looking up</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1301.5" y="296.0449">match perId</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1323.5" y="310.0137">[HTTP]</text><!--MD5=[9f59733d8f135ed93c0051055a59ab89]
+reverse link fd to ld_parser_lol_riot--><path d="M1005.5739,445.055 C1030.6124,459.392 1055.3567,478.1799 1072,502 C1099.4583,541.2987 1104.458,598.1672 1104.5054,633.966 " fill="none" id="fd-backto-ld_parser_lol_riot" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="998.5104,441.1287,1004.0452,447.6376,1006.9603,442.3933,998.5104,441.1287" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="78" x="1131.5" y="514.1387">announces</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="141" x="1100" y="528.1074">references (riot ids)</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="105" x="1118" y="542.0762">and looking up</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="84" x="1130.5" y="556.0449">match perId</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1152.5" y="570.0137">[HTTP]</text><!--MD5=[3d9eb898b1eae3357457796b2adbfd2d]
+reverse link fd to ld_parser_dota_bayes--><path d="M1045.3992,424.0405 C1112.2352,437.1785 1192.0511,460.5644 1254,502 C1304.5688,535.8238 1344.0574,595.9471 1365.4023,633.6634 " fill="none" id="fd-backto-ld_parser_dota_bayes" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1037.3149,422.4886,1044.6058,426.9431,1045.737,421.0507,1037.3149,422.4886" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="78" x="1347.5" y="514.1387">announces</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="108" x="1332.5" y="528.1074">references and</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="121" x="1326" y="542.0762">looking up match</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="37" x="1370" y="556.0449">perId</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1368.5" y="570.0137">[HTTP]</text><!--MD5=[3bb64af902550555ecf696b2fcb571cf]
+link ld_parser_csgo_bayes to fd--><path d="M1056.3911,157.2102 C1064.3837,196.9243 1071.7649,263.7267 1046,313 C1033.9197,336.1026 1013.3342,354.8083 991.9207,369.2924 " fill="none" id="ld_parser_csgo_bayes-to-fd" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="984.9489,373.8469,993.2871,371.9831,990.0056,366.96,984.9489,373.8469" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="78" x="1085.5" y="254.1387">announces</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="108" x="1070.5" y="268.1074">references and</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="121" x="1064" y="282.0762">looking up match</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="37" x="1108" y="296.0449">perId</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1106.5" y="310.0137">[HTTP]</text><!--MD5=[fb93aa8eb9376b1b9ad0636a0398601f]
+reverse link fd to ld_exporter_customer--><path d="M1045.3262,415.7494 C1158.5791,426.2046 1324.3349,449.6778 1460,502 C1471.2949,506.3561 1596.4145,586.8453 1669.2331,633.9424 " fill="none" id="fd-backto-ld_exporter_customer" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1037.2638,415.019,1044.9604,418.7288,1045.5019,412.7532,1037.2638,415.019" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="131" x="1574" y="528.1387">posts stream path</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="48" x="1617.5" y="542.1074">for urn</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1621.5" y="556.0762">[HTTP]</text><!--MD5=[fb93aa8eb9376b1b9ad0636a0398601f]
+reverse link fd to ld_exporter_customer--><path d="M1045.2848,413.7651 C1261.5989,425.3591 1671.5472,453.5041 1716,502 C1748.3406,537.2821 1740.7282,596.6777 1731.4526,633.8958 " fill="none" id="fd-backto-ld_exporter_customer-1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1037.0376,413.3261,1044.8668,416.7471,1045.1858,410.7556,1037.0376,413.3261" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="142" x="1740" y="528.1387">looking up match by</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="1775" y="542.1074">external id</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="1793" y="556.0762">[HTTP]</text><!--MD5=[c581c3a588817f5fe71256852dbfb484]
+link historic_data_service to fd--><path d="M730.113,157.0581 C718.1094,197.2245 705.0982,265.0595 734,313 C748.9258,337.758 772.7434,356.3627 798.1967,370.2121 " fill="none" id="historic_data_service-to-fd" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="805.4132,373.9934,799.7194,367.6231,796.9347,372.9377,805.4132,373.9934" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="142" x="735" y="268.1387">looking up match by</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="770" y="282.1074">external id</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="788" y="296.0762">[HTTP]</text><!--MD5=[c581c3a588817f5fe71256852dbfb484]
+link historic_data_service to fd--><path d="M800.3154,157.0273 C830.7376,177.6112 865.7408,206.7782 886,242 C907.8368,279.9645 913.3327,330.4623 914.1523,365.6524 " fill="none" id="historic_data_service-to-fd-1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="914.2653,373.8064,917.154,365.7655,911.1546,365.8488,914.2653,373.8064" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="111" x="910" y="275.1387">GET match by id</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="945.5" y="289.1074">[HTTP]</text><!--MD5=[07df28460d175724f6f17a9b2a1d983c]
+link bp_api to fd--><path d="M191.5832,157.1522 C119.0304,193.714 27.8138,254.7275 77,313 C121.5248,365.7499 556.1494,392.1246 780.47,402.313 " fill="none" id="bp_api-to-fd" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="788.6888,402.6833,780.832,399.3262,780.5619,405.3201,788.6888,402.6833" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="142" x="78" y="268.1387">looking up match by</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="113" y="282.1074">external id</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="131" y="296.0762">[HTTP]</text><!--MD5=[07df28460d175724f6f17a9b2a1d983c]
+link bp_api to fd--><path d="M262.0298,157.3499 C256.67,199.743 254.9043,271.7993 295,313 C328.3923,347.3125 609.3476,379.2192 780.7341,395.7356 " fill="none" id="bp_api-to-fd-1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="788.8112,396.5104,781.1343,392.7601,780.5613,398.7327,788.8112,396.5104" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="74" x="330" y="268.1387">looking up</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="146" x="296" y="282.1074">tournament by perid</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="349" y="296.0762">[HTTP]</text><!--MD5=[07df28460d175724f6f17a9b2a1d983c]
+link bp_api to fd--><path d="M318.9237,157.1866 C400.1502,210.8776 550.6141,310.1488 557,313 C628.2634,344.8176 712.4914,367.7759 781.1252,383.0905 " fill="none" id="bp_api-to-fd-2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="788.9895,384.8272,781.8247,380.1726,780.5308,386.0315,788.9895,384.8272" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="558" y="268.1387">GET matches limit by</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="74" x="595.5" y="282.1074">date / title</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="612.5" y="296.0762">[HTTP]</text><!--MD5=[c6af97b223bfc7ff11aa421d4adcffc8]
+reverse link fd to bdx_mgmt_service--><path d="M780.5162,413.4583 C564.5252,424.5764 156.1972,452.0076 114,502 C93.6462,526.1138 95.3374,547.5547 114,573 C134.7496,601.2909 210.2557,624.9903 280.3198,641.5796 " fill="none" id="fd-backto-bdx_mgmt_service" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="788.7516,413.0374,780.6089,410.4496,780.9151,416.4418,788.7516,413.0374" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="142" x="115" y="528.1387">looking up match by</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="76" x="150" y="542.1074">external id</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="168" y="556.0762">[HTTP]</text><!--MD5=[c6af97b223bfc7ff11aa421d4adcffc8]
+reverse link fd to bdx_mgmt_service--><path d="M780.6654,419.9727 C618.23,436.6476 360.6433,468.0654 332,502 C298.1832,542.0639 341.01,598.4602 376.3741,633.9846 " fill="none" id="fd-backto-bdx_mgmt_service-1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="788.8091,419.1408,780.5456,416.9693,781.1554,422.9383,788.8091,419.1408" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="74" x="367" y="528.1387">looking up</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="146" x="333" y="542.1074">tournament by perid</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="386" y="556.0762">[HTTP]</text><!--MD5=[c6af97b223bfc7ff11aa421d4adcffc8]
+reverse link fd to bdx_mgmt_service--><path d="M780.553,421.6971 C708.0055,434.2594 619.0773,457.84 550,502 C536.0173,510.9389 475.4135,587.8749 440.0013,633.638 " fill="none" id="fd-backto-bdx_mgmt_service-2" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="788.8658,420.2932,780.4779,418.6674,781.4771,424.5836,788.8658,420.2932" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="551" y="528.1387">looking up fixture by</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="84" x="583.5" y="542.1074">match perid</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="605.5" y="556.0762">[HTTP]</text><!--MD5=[c6af97b223bfc7ff11aa421d4adcffc8]
+reverse link fd to bdx_mgmt_service--><path d="M848.8557,445.6497 C823.6347,461.792 795.0264,481.5759 771,502 C738.174,529.9043 741.32,549.8255 705,573 C657.5342,603.2862 599.4847,624.6935 547.7541,639.3822 " fill="none" id="fd-backto-bdx_mgmt_service-3" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="855.8728,441.1958,847.5108,442.9501,850.7262,448.0158,855.8728,441.1958" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="97" x="772" y="535.1387">GET title by id</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="800.5" y="549.1074">[HTTP]</text><!--MD5=[c6af97b223bfc7ff11aa421d4adcffc8]
+reverse link fd to bdx_mgmt_service--><path d="M914.9061,449.3793 C914.216,486.9905 906.8713,541.0624 874,573 C828.244,617.4563 666.5197,642.8746 547.7165,655.9175 " fill="none" id="fd-backto-bdx_mgmt_service-4" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="914.9567,441.1448,911.9076,449.1262,917.9075,449.1631,914.9567,441.1448" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="910" y="521.1387">GET matches limit by</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="41" x="962" y="535.1074">date /</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="129" x="920" y="549.0762">coverage-provider</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="964.5" y="563.0449">[HTTP]</text><!--MD5=[7b15ba23d8d4e0aed357f9744d956092]
+link fd to bdx_mgmt_service--><!--MD5=[42e84e295cccd332e62468a64d02ec88]
+@startuml C4_Elements
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+LAYOUT_TOP_DOWN()
+
+System_Boundary(aws, "AWS Kubernetes Cluster") {
+    Container(fd, "fixtures-directory-service", "Java Spring Boot")
+    Container(ldo_api, "live-data-operation-api", "Java Spring Boot", "a.k.a live-data-management-service")
+    Container(ld_parser_csgo_prodb, "live-data-parser-csgo-prodb", "Java Spring Boot")
+    Container(ld_parser_lol_riot, "live-data-parser-lol-riot", "Java Spring Boot")
+    Container(ld_parser_dota_bayes, "live-data-parser-dota-bayes", "Java Spring Boot")
+    Container(ld_parser_csgo_bayes, "live-data-parser-csgo-bayes", "Java Spring Boot")
+    Container(ld_exporter_customer, "live-data-exporter-customer", "Java Spring Boot")
+    Container(historic_data_service, "historic-data-service", "Java Spring Boot")
+    Container(bp_api, "big-picture-data-api", "Java Spring Boot")
+    Container(bdx_mgmt_service, "bedex-management-service", "Java Spring Boot")
+
+    Rel(ldo_api, fd, "fetches data", "HTTP")
+    Rel(ldo_api, fd, "announces game and team URN's", "HTTP")
+    Rel(ld_parser_csgo_prodb, fd, "announces references (esl ids) and looking up match perId", "HTTP")
+    Rel_U(ld_parser_lol_riot, fd, "announces references (riot ids) and looking up match perId", "HTTP")
+    Rel_U(ld_parser_dota_bayes, fd, "announces references and looking up match perId", "HTTP")
+    Rel(ld_parser_csgo_bayes, fd, "announces references and looking up match perId", "HTTP")
+    Rel_U(ld_exporter_customer, fd, "posts stream path for urn", "HTTP")
+    Rel_U(ld_exporter_customer, fd, "looking up match by external id", "HTTP")
+    Rel(historic_data_service, fd, "looking up match by external id", "HTTP")
+    Rel(historic_data_service, fd, "GET match by id", "HTTP")
+    Rel(bp_api, fd, "looking up match by external id", "HTTP")
+    Rel(bp_api, fd, "looking up tournament by perid", "HTTP")
+    Rel(bp_api, fd, "GET matches limit by date / title", "HTTP")
+    Rel_U(bdx_mgmt_service, fd, "looking up match by external id", "HTTP")
+    Rel_U(bdx_mgmt_service, fd, "looking up tournament by perid", "HTTP")
+    Rel_U(bdx_mgmt_service, fd, "looking up fixture by match perid", "HTTP")
+    Rel_U(bdx_mgmt_service, fd, "GET title by id", "HTTP")
+    Rel_U(bdx_mgmt_service, fd, "GET matches limit by date / coverage-provider", "HTTP")
+
+    Lay_L(bdx_mgmt_service, fd)
+}
+
+@enduml
+
+@startuml C4_Elements
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+top to bottom direction
+
+rectangle "==AWS Kubernetes Cluster\n<size:12>[System]</size>" <<boundary>> as aws {
+    rectangle "==fixtures-directory-service\n//<size:12>[Java Spring Boot]</size>//" <<container>> as fd
+    rectangle "==live-data-operation-api\n//<size:12>[Java Spring Boot]</size>//\n\n a.k.a live-data-management-service" <<container>> as ldo_api
+    rectangle "==live-data-parser-csgo-prodb\n//<size:12>[Java Spring Boot]</size>//" <<container>> as ld_parser_csgo_prodb
+    rectangle "==live-data-parser-lol-riot\n//<size:12>[Java Spring Boot]</size>//" <<container>> as ld_parser_lol_riot
+    rectangle "==live-data-parser-dota-bayes\n//<size:12>[Java Spring Boot]</size>//" <<container>> as ld_parser_dota_bayes
+    rectangle "==live-data-parser-csgo-bayes\n//<size:12>[Java Spring Boot]</size>//" <<container>> as ld_parser_csgo_bayes
+    rectangle "==live-data-exporter-customer\n//<size:12>[Java Spring Boot]</size>//" <<container>> as ld_exporter_customer
+    rectangle "==historic-data-service\n//<size:12>[Java Spring Boot]</size>//" <<container>> as historic_data_service
+    rectangle "==big-picture-data-api\n//<size:12>[Java Spring Boot]</size>//" <<container>> as bp_api
+    rectangle "==bedex-management-service\n//<size:12>[Java Spring Boot]</size>//" <<container>> as bdx_mgmt_service
+
+ldo_api - ->> fd : **fetches data**\n//<size:12>[HTTP]</size>//
+ldo_api - ->> fd : **announces game and team URN's**\n//<size:12>[HTTP]</size>//
+ld_parser_csgo_prodb - ->> fd : **announces references (esl ids) and looking up match perId**\n//<size:12>[HTTP]</size>//
+ld_parser_lol_riot -UP->> fd : **announces references (riot ids) and looking up match perId**\n//<size:12>[HTTP]</size>//
+ld_parser_dota_bayes -UP->> fd : **announces references and looking up match perId**\n//<size:12>[HTTP]</size>//
+ld_parser_csgo_bayes - ->> fd : **announces references and looking up match perId**\n//<size:12>[HTTP]</size>//
+ld_exporter_customer -UP->> fd : **posts stream path for urn**\n//<size:12>[HTTP]</size>//
+ld_exporter_customer -UP->> fd : **looking up match by external id**\n//<size:12>[HTTP]</size>//
+historic_data_service - ->> fd : **looking up match by external id**\n//<size:12>[HTTP]</size>//
+historic_data_service - ->> fd : **GET match by id**\n//<size:12>[HTTP]</size>//
+bp_api - ->> fd : **looking up match by external id**\n//<size:12>[HTTP]</size>//
+bp_api - ->> fd : **looking up tournament by perid**\n//<size:12>[HTTP]</size>//
+bp_api - ->> fd : **GET matches limit by date / title**\n//<size:12>[HTTP]</size>//
+bdx_mgmt_service -UP->> fd : **looking up match by external id**\n//<size:12>[HTTP]</size>//
+bdx_mgmt_service -UP->> fd : **looking up tournament by perid**\n//<size:12>[HTTP]</size>//
+bdx_mgmt_service -UP->> fd : **looking up fixture by match perid**\n//<size:12>[HTTP]</size>//
+bdx_mgmt_service -UP->> fd : **GET title by id**\n//<size:12>[HTTP]</size>//
+bdx_mgmt_service -UP->> fd : **GET matches limit by date / coverage-provider**\n//<size:12>[HTTP]</size>//
+
+    bdx_mgmt_service -[hidden]L- fd
+}
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
