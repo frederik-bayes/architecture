@@ -17,11 +17,10 @@ System_Boundary(aws, "AWS Kubernetes Cluster") {
             Component(fd_internal_api_id_byextid, "POST /identifiers/byextid", "HTTP/REST")
             Component(fd_internal_api_tournaments_lu, "GET /tournaments/lookup", "HTTP/REST")
             Component(fd_internal_api_post_game, "POST /matches/{idOrPerid}/games", "HTTP/REST")
-            Component(fd_internal_api_fixtures_lookup_match, "GET /fixtures/lookup/bymatch", "HTTP/REST")
             Component(fd_internal_api_titles_by_id, "GET /titles/{id}", "HTTP/REST")
+            Component(fd_internal_api_fixtures_lookup, "GET /fixtures/lookup", "HTTP/REST")
         }
         Boundary(public_api, "/api/v1") {
-            Component(fd_public_api_identifiers_lu, "/identifiers/lookup", "HTTP/REST")
             Component(fd_public_api_match, "/match", "HTTP/REST")
         }        
     }
@@ -40,12 +39,11 @@ System_Boundary(aws, "AWS Kubernetes Cluster") {
     Rel(ldo_api, fd_internal_api_id_byperid, "announces urns")
     Rel(ldo_api, fd_internal_api_tournaments_lu, "by perid")
     Rel(ldo_api, fd_internal_api_post_game, "get or create game perid for announcing urn")
-    Rel(bdx_mgmt_service, fd_public_api_identifiers_lu, "by stream path")
+    Rel(bdx_mgmt_service, fd_internal_api_fixtures_lookup, "by stream path")
     Rel(bdx_mgmt_service, fd_internal_api_tournaments_lu, "by perid")
-    Rel(bdx_mgmt_service, fd_internal_api_fixtures_lookup_match, "by match perid")
     Rel(bdx_mgmt_service, fd_internal_api_titles_by_id, "fetches")
     Rel(bdx_mgmt_service, fd_public_api_match, "limit by date / coverage-provider")
-    Rel(bp_api, fd_public_api_identifiers_lu, "by urn")
+    Rel(bp_api, fd_internal_api_fixtures_lookup, "by urn")
     Rel(bp_api, fd_internal_api_tournaments_lu, "by perid")
     Rel(bp_api, fd_public_api_match, "limit by date / title")
     Rel_U(ld_parser_csgo_prodb, fd_livedata_api_identifiers, "posts esl ids")
@@ -53,8 +51,8 @@ System_Boundary(aws, "AWS Kubernetes Cluster") {
     Rel_U(ld_parser_dota_bayes, fd_livedata_api_identifiers, "posts references")
     Rel_U(ld_parser_csgo_bayes, fd_livedata_api_identifiers, "posts references")
     Rel_U(ld_exporter_customer, fd_internal_api_id_byextid, "posts stream path for urn")
-    Rel_U(ld_exporter_customer, fd_public_api_identifiers_lu, "by several external ids")
-    Rel_U(historic_data_service, fd_public_api_identifiers_lu, "by riot or esl id")
+    Rel_U(ld_exporter_customer, fd_internal_api_fixtures_lookup, "by urn or esl id")
+    Rel_U(historic_data_service, fd_internal_api_fixtures_lookup, "by riot or esl id")
     Rel_U(historic_data_service, fd_internal_api_match_by_id, "fetches")
 }
 
