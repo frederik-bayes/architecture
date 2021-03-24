@@ -24,6 +24,7 @@ System_Boundary(aws, "AWS Kubernetes Cluster") {
             Component(fd_public_api_match, "/match", "HTTP/REST")
         }        
     }
+    Container(bdx_mgmt_service, "bedex-management-service", "Java Spring Boot")
     Container(ldo_api, "live-data-operation-api", "Java Spring Boot", "a.k.a live-data-management-service")
     Container(ld_parser_csgo_prodb, "live-data-parser-csgo-prodb", "Java Spring Boot")
     Container(ld_parser_lol_riot, "live-data-parser-lol-riot", "Java Spring Boot")
@@ -32,7 +33,6 @@ System_Boundary(aws, "AWS Kubernetes Cluster") {
     Container(ld_exporter_customer, "live-data-exporter-customer", "Java Spring Boot")
     Container(historic_data_service, "historic-data-service", "Java Spring Boot")
     Container(bp_api, "big-picture-data-api", "Java Spring Boot")
-    Container(bdx_mgmt_service, "bedex-management-service", "Java Spring Boot")
 
     Rel(ldo_api, fd_internal_api_matches, "periodic sync")
     Rel(ldo_api, fd_internal_api_tournaments, "periodic sync")
@@ -42,7 +42,7 @@ System_Boundary(aws, "AWS Kubernetes Cluster") {
     Rel(bdx_mgmt_service, fd_internal_api_fixtures_lookup, "by stream path")
     Rel(bdx_mgmt_service, fd_internal_api_tournaments_lu, "by perid")
     Rel(bdx_mgmt_service, fd_internal_api_titles_by_id, "fetches")
-    Rel(bdx_mgmt_service, fd_public_api_match, "limit by date / coverage-provider")
+    Rel(bdx_mgmt_service, fd_internal_api_matches, "limit by date / coverage-provider")
     Rel(bp_api, fd_internal_api_fixtures_lookup, "by urn")
     Rel(bp_api, fd_internal_api_tournaments_lu, "by perid")
     Rel(bp_api, fd_public_api_match, "limit by date / title")
