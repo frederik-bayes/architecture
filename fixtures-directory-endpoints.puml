@@ -50,7 +50,7 @@ System_Boundary(aws, "AWS Kubernetes Cluster") {
     Rel_U(ld_parser_lol_riot, fd_livedata_api_identifiers, "posts riot ids")
     Rel_U(ld_parser_dota_bayes, fd_livedata_api_identifiers, "posts references")
     Rel_U(ld_parser_csgo_bayes, fd_livedata_api_identifiers, "posts references")
-    Rel_U(ld_exporter_customer, fd_internal_api_id_byextid, "posts stream path for urn")
+    Rel_U(ld_exporter_customer, fd_internal_api_id_byextid, "posts stream-path for urn")
     Rel_U(ld_exporter_customer, fd_internal_api_fixtures_lookup, "by urn or esl id")
     Rel_U(historic_data_service, fd_internal_api_fixtures_lookup, "by riot or esl id")
     Rel_U(historic_data_service, fd_internal_api_match_by_id, "fetches")
